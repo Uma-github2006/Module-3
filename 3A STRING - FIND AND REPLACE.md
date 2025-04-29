@@ -1,12 +1,10 @@
 # Exp.No:3a
 ## STRING - FIND AND REPLACE
 
----
 
 ### AIM  
 To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
 
----
 
 ### ALGORITHM
 
@@ -18,13 +16,25 @@ To write a Python function to accept a string, identify a word to be replaced, a
 6. Display the original string (`str1`) and the modified string (`str3`).  
 7. Terminate the program.
 
----
 
 ### PROGRAM
 
 ```
+def convert(string):
+    result=""
+    for char in string:
+        if char.isalpha():
+            result+="#"
+        elif char.isdigit():
+            result+="A"
+        else:
+            result+="5"
+    print(result)
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/78ff306d-3b37-4f03-a187-9a153476348f)
+
 
 ### RESULT
+Thus the python program to accept a string, identify a word to be replaced, and replace it with a new word provided by the user is implemented and excecuted successfully.
